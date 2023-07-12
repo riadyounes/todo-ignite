@@ -18,13 +18,14 @@
 
 :focus {
   outline: transparent;
-  box-shadow: 0 0 0 2px var(--green-500);
+  box-shadow: 0 0 0 2px var(--purple-700);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -37,7 +38,6 @@ body,
 input,
 textarea,
 button {
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }

@@ -51,4 +51,12 @@ p.textComplete {
   color: var(--gray-300);
   cursor: pointer;
   line-height: 0;
+  padding: 0.25rem;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.deleteButton:hover {
+  color: var(--red-500);
+  background-color: var(--gray-400);
 }
